@@ -160,56 +160,52 @@ Prompt: "Write end-to-end tests for complete calculation workflow"
 
 ```bash
 Use Task tool with subagent_type="tdd-orchestrator"
-Prompt: "
-Develop REST API for blog platform with TDD:
-1. Start with OpenAPI spec
-2. Generate contract tests from spec
-3. Implement endpoints test-first
-4. Add integration tests
-5. Include performance tests
-"
+Prompt: |
+  Develop REST API for blog platform with TDD:
+  1. Start with OpenAPI spec
+  2. Generate contract tests from spec
+  3. Implement endpoints test-first
+  4. Add integration tests
+  5. Include performance tests
 ```
 
 ### Microservices TDD
 
 ```bash
 Use Task tool with subagent_type="tdd-orchestrator"
-Prompt: "
-Build microservice with TDD approach:
-- Contract tests for API
-- Unit tests for business logic
-- Integration tests for database
-- Component tests for service
-- End-to-end tests for workflows
-"
+Prompt: |
+  Build microservice with TDD approach:
+  - Contract tests for API
+  - Unit tests for business logic
+  - Integration tests for database
+  - Component tests for service
+  - End-to-end tests for workflows
 ```
 
 ### Frontend Component TDD
 
 ```bash
 Use Task tool with subagent_type="frontend-developer"
-Prompt: "
-Build date picker component with TDD:
-1. Test component renders
-2. Test date selection
-3. Test keyboard navigation
-4. Test accessibility
-5. Test date validation
-All tests first, then implementation
-"
+Prompt: |
+  Build date picker component with TDD:
+  1. Test component renders
+  2. Test date selection
+  3. Test keyboard navigation
+  4. Test accessibility
+  5. Test date validation
+  All tests first, then implementation
 ```
 
 ### Database Migration TDD
 
 ```bash
 Use Task tool with subagent_type="database-optimizer"
-Prompt: "
-Perform database migration with TDD:
-1. Write tests for current schema behavior
-2. Write tests for desired schema behavior
-3. Implement migration to pass both
-4. Include rollback tests
-"
+Prompt: |
+  Perform database migration with TDD:
+  1. Write tests for current schema behavior
+  2. Write tests for desired schema behavior
+  3. Implement migration to pass both
+  4. Include rollback tests
 ```
 
 ## TDD Anti-Pattern Detection
