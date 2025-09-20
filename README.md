@@ -22,8 +22,8 @@ This repository provides production-ready subagents that extend Claude Code's ca
 |-------|-------|-------------|
 | [backend-architect](backend-architect.md) | opus | RESTful API design, microservice boundaries, database schemas |
 | [frontend-developer](frontend-developer.md) | sonnet | React components, responsive layouts, client-side state management |
-| [graphql-architect](graphql-architect.md) | opus | GraphQL schemas, resolvers, federation architecture |
-| [architect-reviewer](architect-review.md) | opus | Architectural consistency analysis and pattern validation |
+| [graphql-architect](graphql-architect.md) | sonnet | GraphQL schemas, resolvers, federation architecture |
+| [architect-review](architect-review.md) | sonnet | Architectural consistency analysis and pattern validation |
 | [cloud-architect](cloud-architect.md) | opus | AWS/Azure/GCP infrastructure design and cost optimization |
 | [hybrid-cloud-architect](hybrid-cloud-architect.md) | opus | Multi-cloud strategies across cloud and on-premises environments |
 | [kubernetes-architect](kubernetes-architect.md) | opus | Cloud-native infrastructure with Kubernetes and GitOps |
@@ -112,14 +112,14 @@ This repository provides production-ready subagents that extend Claude Code's ca
 | [backend-security-coder](backend-security-coder.md) | opus | Secure backend coding practices, API security implementation |
 | [frontend-security-coder](frontend-security-coder.md) | opus | XSS prevention, CSP implementation, client-side security |
 | [mobile-security-coder](mobile-security-coder.md) | opus | Mobile security patterns, WebView security, biometric auth |
-| [architect-reviewer](architect-review.md) | opus | Architectural consistency and pattern validation |
+| [architect-review](architect-review.md) | sonnet | Architectural consistency and pattern validation |
 
 #### Testing & Debugging
 
 | Agent | Model | Description |
 |-------|-------|-------------|
 | [test-automator](test-automator.md) | sonnet | Comprehensive test suite creation (unit, integration, e2e) |
-| [tdd-orchestrator](tdd-orchestrator.md) | sonnet | Test-Driven Development methodology guidance |
+| [tdd-orchestrator](tdd-orchestrator.md) | opus | Test-Driven Development methodology guidance |
 | [debugger](debugger.md) | sonnet | Error resolution and test failure analysis |
 | [error-detective](error-detective.md) | sonnet | Log analysis and error pattern recognition |
 
@@ -155,7 +155,7 @@ This repository provides production-ready subagents that extend Claude Code's ca
 | [docs-architect](docs-architect.md) | opus | Comprehensive technical documentation generation |
 | [api-documenter](api-documenter.md) | sonnet | OpenAPI/Swagger specifications and developer docs |
 | [reference-builder](reference-builder.md) | haiku | Technical references and API documentation |
-| [tutorial-engineer](tutorial-engineer.md) | sonnet | Step-by-step tutorials and educational content |
+| [tutorial-engineer](tutorial-engineer.md) | opus | Step-by-step tutorials and educational content |
 | [mermaid-expert](mermaid-expert.md) | sonnet | Diagram creation (flowcharts, sequences, ERDs) |
 
 ### Business & Operations
@@ -166,7 +166,7 @@ This repository provides production-ready subagents that extend Claude Code's ca
 |-------|-------|-------------|
 | [business-analyst](business-analyst.md) | sonnet | Metrics analysis, reporting, KPI tracking |
 | [quant-analyst](quant-analyst.md) | opus | Financial modeling, trading strategies, market analysis |
-| [risk-manager](risk-manager.md) | sonnet | Portfolio risk monitoring and management |
+| [risk-manager](risk-manager.md) | opus | Portfolio risk monitoring and management |
 
 #### Marketing & Sales
 
@@ -241,7 +241,7 @@ Agents are assigned to specific Claude models based on task complexity and compu
 
 | Category | Count | Agents |
 |----------|-------|--------|
-| Architecture & Design | 7 | `architect-reviewer`, `backend-architect`, `cloud-architect`, `hybrid-cloud-architect`, `kubernetes-architect`, `graphql-architect`, `terraform-specialist` |
+| Architecture & Design | 7 | `architect-review`, `backend-architect`, `cloud-architect`, `hybrid-cloud-architect`, `kubernetes-architect`, `graphql-architect`, `terraform-specialist` |
 | Critical Analysis | 5 | `code-reviewer`, `security-auditor`, `performance-engineer`, `incident-responder`, `database-optimizer` |
 | AI/ML Complex | 5 | `ai-engineer`, `ml-engineer`, `mlops-engineer`, `data-scientist`, `prompt-engineer` |
 | Business Critical | 4 | `docs-architect`, `hr-pro`, `legal-advisor`, `quant-analyst` |
@@ -417,7 +417,7 @@ payment-integration → security-auditor → Validated implementation
 | API Design | `backend-architect` | RESTful APIs, microservices, database schemas |
 | Cloud Infrastructure | `cloud-architect` | AWS/Azure/GCP design, scalability planning |
 | UI/UX Design | `ui-ux-designer` | Interface design, wireframes, design systems |
-| System Architecture | `architect-reviewer` | Pattern validation, consistency analysis |
+| System Architecture | `architect-review` | Pattern validation, consistency analysis |
 
 ### Development by Language
 
